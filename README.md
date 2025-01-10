@@ -23,7 +23,7 @@ pip install ollama
 
 The below steps are displayed on how the application is hosted:
 # Installation
-1. Clone the repository: `git clone https://github.com/username/project-name.git`
+1. Clone the repository: `git clone https://github.com/angela172/Chatpdf.git`
 2. Navigate to the project directory: `cd project-name`
 3. Create a virtual Environment
 3. Install dependencies:`pip install -r requirements.txt`
