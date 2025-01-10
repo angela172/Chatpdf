@@ -22,7 +22,7 @@ pip install ollama
 ```
 
 The below steps are displayed on how the application is hosted:
-## Installation
+# Installation
 1. Clone the repository: `git clone https://github.com/username/project-name.git`
 2. Navigate to the project directory: `cd project-name`
 3. Create a virtual Environment
@@ -30,20 +30,24 @@ The below steps are displayed on how the application is hosted:
 4. Start the project: `streamlit run app.py`
 
  -Libraries
-  1. PyPDF2 3.0.1:- Used to manupilate, extract and read PDFs. Its useful in tasks such as merging
+  1. ** PyPDF2 3.0.1 **:- Used to manupilate, extract and read PDFs. Its useful in tasks such as merging
      pdfs, splitting etc.
-  2. sentence-transformers :- Used to manupilate sentences into numeric vectors called embeddings. This helps 
+  2. ** sentence-transformers ** :- Used to manupilate sentences into numeric vectors called embeddings. This helps 
      to capture the meaning of the sentence. This is useful for tasks such as to find similar sentences, clustering etc.
      for this application we have used the sentence-tranformer-'all-MiniLM-L6-v2' due to its lightweight and efficiency making ideal for cases
      where computational resources are limited.
-  4. faiss-cpu-1.9.0:-  Used for efficient similarity search and clustering of dense vectors. It is mostly 
+  3. ** faiss-cpu-1.9.0 **:-  Used for efficient similarity search and clustering of dense vectors. It is mostly 
      used in finding similar items in large datasets such as texts, images, etc.
-  5. streamlit 1.41.1:- Open-source python library that is used to create interactive web applications for data analysis
+  5. ** streamlit 1.41.1 **:- Open-source python library that is used to create interactive web applications for data analysis
      and machine learning.
-  6. NLTK:- it is used for processing and analyzing human language data. It is mostly used for tasks such as sentiment analysis,
+  6. ** NLTK **:- it is used for processing and analyzing human language data. It is mostly used for tasks such as sentiment analysis,
      tokenization, etc.
 And your ChatPDF is ready to Go!
-  
+
+# Try out a sample conversation!
+Test the application by typing a sample question like this:
+Q: what is Go Fish?
+
 
 
 
