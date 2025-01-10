@@ -9,7 +9,7 @@ also helps to summarise the document as a whole.
 The application uses python libraries and is hosted using Streamlit.
 
 ### Before hosting the application:
-#Setting up the Chatbot:
+Setting up the Chatbot:
 This application uses the LLamma chatbot 3 for better results. After the contents of the pdf are extracted, it 
 is fed to the chatbot. The chatbot accordingly fine-tunes the input fed to it and displays the output.
 To run it using Ollama:
