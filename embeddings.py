@@ -23,4 +23,5 @@ def query_embedding_ollama(query, model="llama2"):
         return response.json()["embedding"]
     else:
         print(f"Error: {response.status_code} - {response.text}")
+        print("sorry no relevant information found")
         return None
